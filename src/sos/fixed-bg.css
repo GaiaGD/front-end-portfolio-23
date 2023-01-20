@@ -1,0 +1,12 @@
+html, body {
+    height: 100%;
+    overscroll-behavior: auto;
+    background: #000000;
+    position: relative;
+    font-family: 'Archivo', sans-serif;
+    background-image: url('assets/img/outerspace.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
