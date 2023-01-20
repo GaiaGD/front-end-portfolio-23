@@ -49,7 +49,7 @@ function Homepage() {
                 </p>
                   <div className='md:flex w-full'>
                     <div className={`cta md:py-5 w-full mr-8`}>
-                      <Link to="/privatesale">
+                      <Link to="/front-end-portfolio-23/privatesale">
                           <h5 className={`${planet.first} ${planet.cta}2 p-5 md:text-lg text-sm uppercase text-center`}>view&nbsp;project <span className={`arrow-hp ${planet.border} ml-2 right`}></span></h5>
                       </Link>
                     </div>
@@ -81,7 +81,7 @@ function Homepage() {
                 </p>
                   <div className='md:flex w-full'>
                     <div className={`cta md:py-5 w-full mr-8`}>
-                      <Link to="/wheelsapp">
+                      <Link to="/front-end-portfolio-23/wheelsapp">
                           <h5 className={`${planet.first} ${planet.cta}2 p-5 md:text-lg text-sm uppercase text-center`}>view&nbsp;project <span className={`arrow-hp ${planet.border} ml-2 right`}></span></h5>
                       </Link>
                     </div>
