@@ -18,9 +18,9 @@ function App() {
       <Header />
 
       <Routes>
-          <Route path="/" element={<Homepage />} />
-          <Route path="/wheelsapp" element={<Wheelsapp />} />
-          <Route path="/privatesale" element={<PrivateSale />} />
+          <Route path="/front-end-portfolio-23/" element={<Homepage />} />
+          <Route path="/front-end-portfolio-23/wheelsapp" element={<Wheelsapp />} />
+          <Route path="/front-end-portfolio-23/privatesale" element={<PrivateSale />} />
       </Routes>
 
       <Footer />
