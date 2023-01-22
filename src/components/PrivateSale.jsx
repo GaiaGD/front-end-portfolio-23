@@ -28,7 +28,7 @@ function PrivateSale() {
         </div>
         <div className='md:flex md:w-2/6 md:mx-64 mx-4'>
             <div className={`py-5 w-full mr-8`}>
-              <a href='https://superlative-tiramisu-d2e8f7.netlify.app/' target="_blank">
+              <a href='https://gaiagd.github.io/private-sale-ecomm/' target="_blank">
                 <h5 className={`${planet.first} ${planet.cta}2 p-5 md:text-lg text-sm text-center uppercase`}>live&nbsp;site <span className={`arrow-hp ${planet.border} ml-2 newTab`}></span></h5>
               </a>
             </div>
