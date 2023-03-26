@@ -11,7 +11,7 @@ import './planets.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <PlanetThemeContextProvider>
-    <BrowserRouter basename="/front-end-portfolio-23/">
+    <BrowserRouter>
       <React.StrictMode>
         <ScrollToTop />
         <App />
