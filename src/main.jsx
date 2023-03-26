@@ -11,11 +11,11 @@ import './planets.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <PlanetThemeContextProvider>
-    <Router>
+    <BrowserRouter basename="/ledgerbank/">
       <React.StrictMode>
         <ScrollToTop />
         <App />
       </React.StrictMode>
-    </Router>
+    </BrowserRouter>
   </PlanetThemeContextProvider>
 )
