@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import { BrowserRouter } from 'react-router-dom'
+import { HashRouter } from 'react-router-dom'
 import { PlanetThemeContextProvider } from "./PlanetThemeContext"
 import ScrollToTop from './utils/ScrollToTop'
 
@@ -11,11 +11,11 @@ import './planets.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <PlanetThemeContextProvider>
-    <BrowserRouter>
+    <HashRouter>
       <React.StrictMode>
         <ScrollToTop />
         <App />
       </React.StrictMode>
-    </BrowserRouter>
+    </HashRouter>
   </PlanetThemeContextProvider>
 )
