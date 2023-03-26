@@ -2,8 +2,9 @@
   "name": "front-end-portfolio-23",
   "private": true,
   "version": "0.0.0",
+
   "type": "module",
-  "homepage": "https://gaiagd.github.io/front-end-portfolio-23/",
+  
   "scripts": {
     "dev": "vite",
     "build": "vite build",
