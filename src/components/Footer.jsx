@@ -7,7 +7,7 @@ function Footer() {
   return (
     <FadeInSection>
       <div className='h-[30vh] md:mt-80 mt-40 flex-col content-between'>
-        <div id="contacts" className='md:px-64 mx-4 md:mt-48 md:mb-20'>
+        <div className='md:px-64 mx-4 md:mt-48 md:mb-20'>
           <div className='flex-col justify-between mx-auto'>
             <h1 className={`${planet.first} md:text-4xl text-2xl uppercase mb-8 text-center`}>get in touch</h1>
             <div className=''>

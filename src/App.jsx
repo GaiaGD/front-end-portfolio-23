@@ -15,6 +15,7 @@ function App() {
         <div className="stars"></div>
         <div className="twinkling"></div>
       </div>
+      
       <Header />
 
       <Routes>

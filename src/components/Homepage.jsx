@@ -8,7 +8,7 @@ function Homepage() {
   const {planet, planetsFacts, planetInfo} = useContext(PlanetTheme)
   console.log(planet)
   return (
-    <div id="intro">
+    <div>
       <FadeInSection>
         <div className='flex justify-between items-center'>
           <div className='md:mt-64 md:mb-32 md:mx-32 my-16 mx-4 flex flex-col items-center'>
@@ -28,7 +28,7 @@ function Homepage() {
     </FadeInSection>
     {/* things I've done */}
 
-      <div id='projects' className='projects md:mt-64 md:mx-64 mx-4'>
+      <div className='projects md:mt-64 md:mx-64 mx-4'>
           <FadeInSection>
             <div className='mb:my-32 my-16'>
                 <h2 className={`${planet.first} md:text-4xl text-2xl text-center md:text-left uppercase`}>what I’ve designed & built:</h2>
@@ -108,7 +108,7 @@ function Homepage() {
 
       {/* about me */}
       <FadeInSection>
-        <div id='about' className='flex justify-between items-center mx-4'>
+        <div className='flex justify-between items-center mx-4'>
           <div className='md:mt-64 mt-16 mb-32 md:mx-64 md:flex flex-col items-end'>
               <h1 className={`${planet.first} md:text-4xl text-2xl text-center md:text-left uppercase my-8`}>about me</h1>
               <div className='xl:w-2/3'>
