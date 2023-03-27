@@ -18,9 +18,9 @@ function App() {
       <Header />
 
       <Routes>
-          <Route path={process.env.VITE_URL} element={<Homepage />} />
-          <Route path={process.env.VITE_URL + "/wheelsapp"} element={<Wheelsapp />} />
-          <Route path={process.env.VITE_URL + "/privatesale"} element={<PrivateSale />} />
+          <Route path="/front-end-portfolio-23/" element={<Homepage />} />
+          <Route path="/front-end-portfolio-23/wheelsapp" element={<Wheelsapp />} />
+          <Route path="/front-end-portfolio-23/privatesale" element={<PrivateSale />} />
       </Routes>
 
       <Footer />
