@@ -40,7 +40,8 @@ function Header() {
                     offset={-70}
                     duration={1500}
                     className='w-32'
-                    to="/front-end-portfolio-23/#intro">
+                    // to="/front-end-portfolio-23/#intro"
+                    >
                     <h2 className='text-white md:text-lg text-sm text-center'>HOME</h2>
                 </Link>
                 <Link
@@ -48,7 +49,8 @@ function Header() {
                     offset={-70}
                     duration={1500}
                     className='w-32'
-                    to="/front-end-portfolio-23/#about">
+                    // to="/front-end-portfolio-23/#about"
+                    >
                     <h2 className='text-white md:text-lg text-sm text-center'>ABOUT</h2>
                 </Link>
                 <Link
@@ -56,7 +58,8 @@ function Header() {
                     offset={-70}
                     duration={1500}
                     className='w-32'
-                    to="/front-end-portfolio-23/#projects">
+                    // to="/front-end-portfolio-23/#projects"
+                    >
                     <h2 className='text-white md:text-lg text-sm text-center'>WORK</h2>
                 </Link>
                 <Link
@@ -64,7 +67,8 @@ function Header() {
                     offset={-70}
                     duration={1500}
                     className='w-32'
-                    to="/front-end-portfolio-23/#contacts">
+                    // to="/front-end-portfolio-23/#contacts"
+                    >
                     <h2 className='text-white md:text-lg text-sm text-center'>CONTACT</h2>
                 </Link>
             </div>
