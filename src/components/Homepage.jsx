@@ -12,7 +12,7 @@ function Homepage() {
       <FadeInSection>
         <div className='flex justify-between items-center'>
           <div className='md:mt-64 md:mb-32 md:mx-32 my-16 mx-4 flex flex-col items-center'>
-              <h1 className={`${planet.second} md:text-6xl text-3xl md:mb-0 mb-16 text-center md:leading-tight`}>Hello, I'm Gaia, and I'm a <span className={`${planet.first}`}>Front-end Developer</span>. After many years as a <span className={`${planet.first}`}>Digital Designer</span>, my passion is to to create engaging and visually pleasing digital experiences. Welcome to my universe.</h1>
+              <h1 className={`${planet.second} md:text-6xl text-3xl md:mb-0 mb-16 text-center md:leading-tighft`}>Hello, I'm Gaia, and I'm a <span className={`${planet.first}`}>Front-end Developer</span>. After many years as a <span className={`${planet.first}`}>Digital Designer</span>, my passion is to to create engaging and visually pleasing digital experiences. Welcome to my universe.</h1>
               <HashLink
                   smooth={true}
                   offset={-70}
@@ -20,7 +20,6 @@ function Homepage() {
                   className={`${planet.first} md:m-16 md:w-1/3 w-full`}
                   to="/#projects"
               >
-                <h5 className={`${planet.first} ${planet.cta}2 p-5 md:text-lg text-sm text-center`}>THINGS I'VE CREATED <span className={`arrow-hp ${planet.border} ml-2 right`}></span></h5>
                 <h5 className={`${planet.first} ${planet.cta}2 p-5 md:text-lg text-sm text-center`}>THINGS I'VE CREATED <span className={`arrow-hp ${planet.border} ml-2 right`}></span></h5>
               </HashLink>
           </div>
