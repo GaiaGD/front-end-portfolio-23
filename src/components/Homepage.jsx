@@ -21,7 +21,6 @@ function Homepage() {
                   to="/#projects"
               >
                 <h5 className={`${planet.first} ${planet.cta}2 p-5 md:text-lg text-sm text-center`}>THINGS I'VE CREATED <span className={`arrow-hp ${planet.border} ml-2 right`}></span></h5>
-                <h5 className={`${planet.first} ${planet.cta}2 p-5 md:text-lg text-sm text-center`}>THINGS I'VE CREATED <span className={`arrow-hp ${planet.border} ml-2 right`}></span></h5>
               </HashLink>
           </div>
         </div>
