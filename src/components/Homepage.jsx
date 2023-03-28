@@ -107,7 +107,7 @@ function Homepage() {
 
       {/* about me */}
       <FadeInSection>
-        <div className='flex justify-between items-center mx-4'>
+        <div className='flex justify-between items-center mx-4' id="about">
           <div className='md:mt-64 mt-16 mb-32 md:mx-64 md:flex flex-col items-end'>
               <h1 className={`${planet.first} md:text-4xl text-2xl text-center md:text-left uppercase my-8`}>about me</h1>
               <div className='xl:w-2/3'>

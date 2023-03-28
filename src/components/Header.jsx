@@ -48,7 +48,7 @@ function Header() {
                     offset={-70}
                     duration={1500}
                     className='w-32'
-                    to="/">
+                    to="/#about">
                     <h2 className='text-white md:text-lg text-sm text-center'>ABOUT</h2>
                 </Link>
                 <Link
