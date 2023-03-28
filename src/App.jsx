@@ -1,5 +1,4 @@
 import React from 'react'
-import { HashRouter } from 'react-router-dom'
 import {Routes, Route} from "react-router-dom"
 import Header from "./components/Header"
 import Homepage from "./components/Homepage"
@@ -17,19 +16,16 @@ function App() {
         <div className="twinkling"></div>
       </div>
 
-      <HashRouter basename='/'>
+        <Header />
 
-          <Header />
+        <Routes>
+            <Route path="/front-end-portfolio-23/" element={<Homepage />} />
+            <Route path="/front-end-portfolio-23/wheelsapp" element={<Wheelsapp />} />
+            <Route path="/front-end-portfolio-23/privatesale" element={<PrivateSale />} />
+        </Routes>
 
-          <Routes>
-              <Route path="/" element={<Homepage />} />
-              <Route path="/wheelsapp" element={<Wheelsapp />} />
-              <Route path="/privatesale" element={<PrivateSale />} />
-          </Routes>
+        <Footer />
 
-          <Footer />
-      </HashRouter>
-      
     </div>
   )
 }
