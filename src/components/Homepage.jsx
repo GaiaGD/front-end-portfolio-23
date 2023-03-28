@@ -37,13 +37,13 @@ function Homepage() {
           <FadeInSection>
             <div className='project md:flex text-white md:mb-40 mb-16 items-center w-full'>
               <div className='thumb md:w-5/12 w-full'>
-                <img className="w-7/12 mx-auto md:pb-0 pb-8" src='./projects/ecomm-hp-preview.gif'></img>
+                <img className="w-7/12 mx-auto md:pb-0 pb-8" src='./projects/ledger-hp-preview.svg'></img>
               </div>
               <div className='md:w-7/12 left-4'>
-                <h2 className={`${planet.first} md:text-3xl text-xl uppercase`}>PRIVATE SALE</h2>
+                <h2 className={`${planet.first} md:text-3xl text-xl uppercase`}>LEDGER BANKING</h2>
                 <h5 className='md:text-lg text-sm font-light my-2'>UI - UX, Development</h5>
-                <div className={`${planet.second} font-light md:text-lg text-sm`}><span className='mr-8'>REACT.JS</span><span className='mr-8'>API</span><span>TAILWIND</span></div>
-                <p className='md:mt-8 mt-4 md:text-lg md:leading-relaxed leading-relaxed text-sm md:tracking-wide tracking-wide'>A clone of an Ecommerce website created with React.js. Add your favorite items in the basket and check out!
+                <div className={`${planet.second} font-light md:text-lg text-sm`}><span className='mr-8'>REACT.JS</span><span className='mr-8'>FIREBASE</span><span>TAILWIND</span></div>
+                <p className='md:mt-8 mt-4 md:text-lg md:leading-relaxed leading-relaxed text-sm md:tracking-wide tracking-wide'>A ui-friendly banking app. Create your account and access it everywhere, from every device!
                 </p>
                   <div className='md:flex w-full'>
                     <div className={`cta md:py-5 w-full mr-8`}>
@@ -92,6 +92,39 @@ function Homepage() {
           </FadeInSection>
 
         </div>
+
+
+        <div className='flex-col'>
+          {/* Private Sale */}
+          <FadeInSection>
+            <div className='project md:flex text-white md:mb-40 mb-16 items-center w-full'>
+              <div className='thumb md:w-5/12 w-full'>
+                <img className="w-7/12 mx-auto md:pb-0 pb-8" src='./projects/ecomm-hp-preview.gif'></img>
+              </div>
+              <div className='md:w-7/12 left-4'>
+                <h2 className={`${planet.first} md:text-3xl text-xl uppercase`}>PRIVATE SALE</h2>
+                <h5 className='md:text-lg text-sm font-light my-2'>UI - UX, Development</h5>
+                <div className={`${planet.second} font-light md:text-lg text-sm`}><span className='mr-8'>REACT.JS</span><span className='mr-8'>API</span><span>TAILWIND</span></div>
+                <p className='md:mt-8 mt-4 md:text-lg md:leading-relaxed leading-relaxed text-sm md:tracking-wide tracking-wide'>A clone of an Ecommerce website created with React.js. Add your favorite items in the basket and check out!
+                </p>
+                  <div className='md:flex w-full'>
+                    <div className={`cta md:py-5 w-full mr-8`}>
+                      <Link to="/privatesale">
+                          <h5 className={`${planet.first} ${planet.cta}2 p-5 md:text-lg text-sm uppercase text-center`}>view&nbsp;project <span className={`arrow-hp ${planet.border} ml-2 right`}></span></h5>
+                      </Link>
+                    </div>
+                    <div className={`cta md:py-5 w-full mr-8`}>
+                      <a href='https://superlative-tiramisu-d2e8f7.netlify.app/' target="_blank">
+                        <h5 className={`${planet.first} ${planet.cta}2 p-5 md:text-lg text-sm uppercase text-center`}>live&nbsp;site<span className={`arrow-hp newTab ${planet.border} ml-4 right`}></span></h5>
+                      </a>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </FadeInSection>
+
+        </div>
+
 
         {/* see more CTA*/}
         {/*
