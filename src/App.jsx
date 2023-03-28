@@ -21,13 +21,15 @@ function App() {
 
           <Header />
 
+          <Routes>
               <Route path="/" element={<Homepage />} />
               <Route path="/wheelsapp" element={<Wheelsapp />} />
               <Route path="/privatesale" element={<PrivateSale />} />
+          </Routes>
 
           <Footer />
       </HashRouter>
-
+      
     </div>
   )
 }
