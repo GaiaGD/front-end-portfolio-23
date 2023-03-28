@@ -17,15 +17,16 @@ function App() {
         <div className="twinkling"></div>
       </div>
 
-      <Header />
+      <HashRouter basename='/'>
 
-      <Routes>
-          <Route path="/front-end-portfolio-23/" element={<Homepage />} />
-          <Route path="/front-end-portfolio-23/wheelsapp" element={<Wheelsapp />} />
-          <Route path="/front-end-portfolio-23/privatesale" element={<PrivateSale />} />
-      </Routes>
+          <Header />
 
-      <Footer />
+              <Route path="/" element={<Homepage />} />
+              <Route path="/wheelsapp" element={<Wheelsapp />} />
+              <Route path="/privatesale" element={<PrivateSale />} />
+
+          <Footer />
+      </HashRouter>
 
     </div>
   )
