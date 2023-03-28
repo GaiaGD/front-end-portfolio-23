@@ -25,6 +25,12 @@ function Header() {
         }
     })
 
+    function scroll(element){
+        console.log(element)
+        var ele = document.getElementById(element)
+        window.scrollTo(ele.offsetLeft,ele.offsetTop)
+    }
+
     return (
         <div className='header sticky top-0 z-50 border-b-[0.1px] border-white-100 border-opacity-20 md:flex justify-between items-center bg-black-200'>
 
@@ -43,14 +49,15 @@ function Header() {
                     to="/">
                     <h2 className='text-white md:text-lg text-sm text-center'>HOME</h2>
                 </Link>
-                <Link
+                <div
                     smooth={true}
                     offset={-70}
                     duration={1500}
                     className='w-32'
-                    to="/#about">
+                    onClick={scroll('about')}
+                    >
                     <h2 className='text-white md:text-lg text-sm text-center'>ABOUT</h2>
-                </Link>
+                </div>
                 <Link
                     smooth={true}
                     offset={-70}
