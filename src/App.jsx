@@ -1,4 +1,5 @@
 import React from 'react'
+import { HashRouter } from 'react-router-dom'
 import {Routes, Route} from "react-router-dom"
 import Header from "./components/Header"
 import Homepage from "./components/Homepage"
@@ -15,7 +16,7 @@ function App() {
         <div className="stars"></div>
         <div className="twinkling"></div>
       </div>
-      
+
       <Header />
 
       <Routes>
