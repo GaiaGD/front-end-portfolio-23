@@ -25,12 +25,6 @@ function Header() {
         }
     })
 
-    function scroll(element){
-        console.log(element)
-        var ele = document.getElementById(element)
-        window.scrollTo(ele.offsetLeft,ele.offsetTop)
-    }
-
     return (
         <div className='header sticky top-0 z-50 border-b-[0.1px] border-white-100 border-opacity-20 md:flex justify-between items-center bg-black-200'>
 
@@ -46,24 +40,23 @@ function Header() {
                     offset={-70}
                     duration={1500}
                     className='w-32'
-                    to="/">
+                    to="/#intro">
                     <h2 className='text-white md:text-lg text-sm text-center'>HOME</h2>
                 </Link>
-                <div
-                    smooth={true}
-                    offset={-70}
-                    duration={1500}
-                    className='w-32'
-                    onClick={scroll('about')}
-                    >
-                    <h2 className='text-white md:text-lg text-sm text-center'>ABOUT</h2>
-                </div>
                 <Link
                     smooth={true}
                     offset={-70}
                     duration={1500}
                     className='w-32'
-                    to="/">
+                    to="/#about">
+                    <h2 className='text-white md:text-lg text-sm text-center'>ABOUT</h2>
+                </Link>
+                <Link
+                    smooth={true}
+                    offset={-70}
+                    duration={1500}
+                    className='w-32'
+                    to="/#work">
                     <h2 className='text-white md:text-lg text-sm text-center'>WORK</h2>
                 </Link>
                 <Link
@@ -71,7 +64,7 @@ function Header() {
                     offset={-70}
                     duration={1500}
                     className='w-32'
-                    to="/">
+                    to="/#contact">
                     <h2 className='text-white md:text-lg text-sm text-center'>CONTACT</h2>
                 </Link>
             </div>

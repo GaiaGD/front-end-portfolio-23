@@ -1,19 +1,17 @@
 import React, { useContext } from 'react'
 import {Link} from "react-router-dom"
-import {HashLink} from 'react-router-hash-link'
 import {PlanetTheme} from "../PlanetThemeContext"
 import FadeInSection from '../utils/FadeInSection'
 
 function Homepage() {
   const {planet, planetsFacts, planetInfo} = useContext(PlanetTheme)
-  console.log(planet)
   return (
     <div>
       <FadeInSection>
-        <div className='flex justify-between items-center'>
+        <div className='flex justify-between items-center' id="intro">
           <div className='md:mt-64 md:mb-32 md:mx-32 my-16 mx-4 flex flex-col items-center'>
               <h1 className={`${planet.second} md:text-6xl text-3xl md:mb-0 mb-16 text-center md:leading-tighft`}>Hello, I'm Gaia, and I'm a <span className={`${planet.first}`}>Front-end Developer</span>. After many years as a <span className={`${planet.first}`}>Digital Designer</span>, my passion is to to create engaging and visually pleasing digital experiences. Welcome to my universe.</h1>
-              <HashLink
+              <Link
                   smooth={true}
                   offset={-70}
                   duration={1500}
@@ -21,13 +19,13 @@ function Homepage() {
                   to="/#projects"
               >
                 <h5 className={`${planet.first} ${planet.cta}2 p-5 md:text-lg text-sm text-center`}>THINGS I'VE CREATED <span className={`arrow-hp ${planet.border} ml-2 right`}></span></h5>
-              </HashLink>
+              </Link>
           </div>
         </div>
     </FadeInSection>
     {/* things I've done */}
 
-      <div className='projects md:mt-64 md:mx-64 mx-4'>
+      <div className='projects md:mt-64 md:mx-64 mx-4' id="work">
           <FadeInSection>
             <div className='mb:my-32 my-16'>
                 <h2 className={`${planet.first} md:text-4xl text-2xl text-center md:text-left uppercase`}>what I’ve designed & built:</h2>
