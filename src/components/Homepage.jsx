@@ -43,7 +43,7 @@ function Homepage() {
                 <h2 className={`${planet.first} md:text-3xl text-xl uppercase`}>LEDGER BANKING</h2>
                 <h5 className='md:text-lg text-sm font-light my-2'>UI - UX, Development</h5>
                 <div className={`${planet.second} font-light md:text-lg text-sm`}><span className='mr-8'>REACT.JS</span><span className='mr-8'>FIREBASE</span><span>TAILWIND</span></div>
-                <p className='md:mt-8 mt-4 md:text-lg md:leading-relaxed leading-relaxed text-sm md:tracking-wide tracking-wide'>A ui-friendly banking app. Create your account and access it everywhere, from every device!
+                <p className='md:mt-8 mt-4 md:text-lg md:leading-relaxed leading-relaxed text-sm md:tracking-wide tracking-wide'>Ledger is UI-friendly banking app in which the user can create multiple accounts, easily access the balance, deposit and withdraw funds, and even send money between different accounts! Ledger is easily accessible on all devices, thanks to its own database!
                 </p>
                   <div className='md:flex w-full'>
                     <div className={`cta md:py-5 w-full mr-8`}>
