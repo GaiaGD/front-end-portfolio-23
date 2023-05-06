@@ -40,7 +40,7 @@ function Header() {
                     offset={-70}
                     duration={1500}
                     className='w-32'
-                    to="/#intro">
+                    to="/intro">
                     <h2 className='text-white md:text-lg text-sm text-center'>HOME</h2>
                 </Link>
                 <Link
@@ -48,7 +48,7 @@ function Header() {
                     offset={-70}
                     duration={1500}
                     className='w-32'
-                    to="/#about">
+                    to="/about">
                     <h2 className='text-white md:text-lg text-sm text-center'>ABOUT</h2>
                 </Link>
                 <Link
@@ -56,7 +56,7 @@ function Header() {
                     offset={-70}
                     duration={1500}
                     className='w-32'
-                    to="/#work">
+                    to="/work">
                     <h2 className='text-white md:text-lg text-sm text-center'>WORK</h2>
                 </Link>
                 <Link
@@ -64,7 +64,7 @@ function Header() {
                     offset={-70}
                     duration={1500}
                     className='w-32'
-                    to="/#contact">
+                    to="/contact">
                     <h2 className='text-white md:text-lg text-sm text-center'>CONTACT</h2>
                 </Link>
             </div>
