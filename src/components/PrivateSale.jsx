@@ -85,7 +85,7 @@ function PrivateSale() {
                 APIs by: <a className='underline' target="_blank" href='https://fakestoreapi.com/'>fakestoreapi</a>
               </p>
             </div>
-            
+
             <div className='md:w-6/12 mx-4 mt-8'>
               <div className={`py-5`}>
                 <a href='https://gaiagd.github.io/ledgerbank/' target="_blank">
@@ -107,7 +107,7 @@ function PrivateSale() {
               </div>
             </Link> */}
 
-            <Link to="/front-end-portfolio-23/">
+            <Link to="/">
               <div className={`mt-8 cta p-5 w-full ${planet.cta}2`}>
                 <h5 className={`${planet.first} md:text-lg text-sm text-center uppercase`}><span className={`arrow-hp ${planet.border} mr-2 left`}></span>back to home</h5>
               </div>
