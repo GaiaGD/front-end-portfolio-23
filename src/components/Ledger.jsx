@@ -42,6 +42,7 @@ function Ledger() {
       <div className='md:flex my-16'>
         <div className='md:w-3/6'>
           <img className="my-16 mx-auto w-9/12 md:w-auto max-h-[40rem]" src='./projects/ledger-hp-preview.svg' />
+          <img className="my-16 mx-auto w-9/12 md:w-auto max-h-[40rem]" src='./projects/ledger-page-preview.svg' />
         </div>
         <div className='md:w-3/6'>
             <div className='info md:mr-64 mx-4'>
