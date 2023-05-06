@@ -37,7 +37,7 @@ function Homepage() {
           <FadeInSection>
               <div className='project md:flex text-white md:mb-40 mb-16 items-center w-full'>
                 <Link to="/ledger" className='thumb md:w-5/12 w-full'>
-                    <img className="w-7/12 mx-auto md:pb-0 pb-8" src='./projects/ledger-hp-preview.svg'></img>
+                    <img className="md:pb-0 pb-8" src='./projects/ledger-hp-preview.svg'></img>
                 </Link>
                 <div className='md:w-7/12 left-4'>
                   <Link to="/ledger">
