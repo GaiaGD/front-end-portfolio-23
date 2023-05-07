@@ -41,10 +41,14 @@ function Wheelsapp() {
 
         <div className='md:flex md:w-2/6 md:mx-64 mx-4'>
             <div className={`py-5 w-full mr-8`}>
-              <h5 className={`${planet.first} ${planet.cta}2 p-5 md:text-lg text-sm text-center uppercase`}>live&nbsp;site <span className={`arrow-hp ${planet.border} ml-2 newTab`}></span></h5>
+              <a href='https://gaiagd.github.io/wheels-app/' target="_blank">
+                <h5 className={`${planet.first} ${planet.cta}2 p-5 md:text-lg text-sm text-center uppercase`}>live&nbsp;site <span className={`arrow-hp ${planet.border} ml-2 newTab`}></span></h5>
+              </a>
             </div>
             <div className={`cta py-5 w-full`}>
-              <h5 className={`${planet.first} ${planet.cta}2 p-5 md:text-lg text-sm text-center uppercase`}>view&nbsp;on&nbsp;github <span className={`arrow-hp ${planet.border} ml-2 right`}></span></h5>
+              <a href='https://github.com/GaiaGD/wheels-app' target="_blank">
+                <h5 className={`${planet.first} ${planet.cta}2 p-5 md:text-lg text-sm text-center uppercase`}>view&nbsp;on&nbsp;github <span className={`arrow-hp ${planet.border} ml-2 right`}></span></h5>
+              </a>
             </div>
         </div>
       </FadeInSection>
@@ -112,7 +116,9 @@ function Wheelsapp() {
 
             <Link to="/">
               <div className={`mt-8 cta p-5 w-full ${planet.cta}2`}>
-                <h5 className={`${planet.first} md:text-lg text-sm text-center uppercase`}><span className={`arrow-hp ${planet.border} mr-2 left`}></span>back to home</h5>
+                <a href='https://github.com/GaiaGD/wheels-app' target="_blank">
+                  <h5 className={`${planet.first} md:text-lg text-sm text-center uppercase`}><span className={`arrow-hp ${planet.border} mr-2 left`}></span>back to home</h5>
+                </a>
               </div>
             </Link>
           </div>
