@@ -5,6 +5,7 @@ import FadeInSection from '../utils/FadeInSection'
 
 function Homepage() {
   const {planet, planetsFacts, planetInfo} = useContext(PlanetTheme)
+  console.log(planet.selected)
   return (
     <div>
       <FadeInSection>
@@ -36,10 +37,14 @@ function Homepage() {
           {/* Private Sale */}
           <FadeInSection>
               <div className='project md:flex text-white md:mb-40 mb-16 items-center w-full'>
-                <Link to="/ledger" className='thumb md:w-5/12 w-full'>
-                    <img className="md:pb-0 pb-8" src='./projects/ledger-hp-preview.svg'></img>
-                </Link>
-                <div className='md:w-7/12 left-4'>
+                <div className='mr-10 mb-10 md:w-5/12'>
+                  <div className='rounded-3xl bg-slate-200/10'>
+                    <Link to="/ledger" className='thumb md:w-5/12 w-full'>
+                        <img className="p-8" src='./projects/ledger-hp-preview-noglow.svg'></img>
+                    </Link>
+                  </div>
+                </div>
+                <div className='md:w-7/12'>
                   <Link to="/ledger">
                     <h2 className={`${planet.first} md:text-3xl text-xl uppercase`}>LEDGER BANKING</h2>
                   </Link>
