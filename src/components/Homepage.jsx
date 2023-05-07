@@ -40,7 +40,7 @@ function Homepage() {
                 <div className='mr-10 mb-10 md:w-5/12'>
                   <div className='rounded-3xl bg-slate-200/10'>
                     <Link to="/ledger" className='thumb md:w-5/12 w-full'>
-                        <img className="p-8" src='./projects/ledger-hp-preview-noglow.svg'></img>
+                        <img className="p-8" src='./projects/ledger-hp-preview-1.svg'></img>
                     </Link>
                   </div>
                 </div>
