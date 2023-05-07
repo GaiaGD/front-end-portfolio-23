@@ -88,7 +88,7 @@ function PrivateSale() {
 
             <div className='md:w-6/12 mx-4 mt-8'>
               <div className={`py-5`}>
-                <a href='https://gaiagd.github.io/ledgerbank/' target="_blank">
+                <a href='https://gaiagd.github.io/private-sale-ecomm/' target="_blank">
                   <h5 className={`${planet.first} ${planet.cta}2 p-5 md:text-lg text-sm text-center uppercase`}>live&nbsp;site <span className={`arrow-hp ${planet.border} ml-2 newTab`}></span></h5>
                 </a>
               </div>
