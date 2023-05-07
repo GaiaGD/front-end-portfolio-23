@@ -11,7 +11,7 @@ function Homepage() {
       <FadeInSection>
         <div className='flex justify-between items-center' id="intro">
           <div className='md:mt-64 md:mb-32 md:mx-32 my-16 mx-4 flex flex-col items-center'>
-              <h1 className={`${planet.second} md:text-6xl text-3xl md:mb-0 mb-16 text-center md:leading-tighft`}>Hello, I'm Gaia, and I'm a <span className={`${planet.first}`}>Front-end Developer</span>. After many years as a <span className={`${planet.first}`}>Digital Designer</span>, my passion is to to create engaging and visually pleasing digital experiences. Welcome to my universe.</h1>
+              <h1 className={`${planet.second} md:text-6xl text-3xl md:mb-0 mb-16 text-center md:leading-tighft`}>Hello, I'm Gaia, and I'm a <span className={`${planet.first}`}>Front-end Developer</span>. After many years as a <span className={`${planet.first}`}>Digital Designer</span>, my passion is to create engaging and visually pleasing digital experiences. Welcome to my universe.</h1>
               <Link
                   smooth={true}
                   offset={-70}
