@@ -34,13 +34,13 @@ function Homepage() {
           </FadeInSection>
 
         <div className='flex-col'>
-          {/* Private Sale */}
+          {/* ledger banking */}
           <FadeInSection>
               <div className='project md:flex text-white md:mb-40 mb-16 items-center w-full'>
-                <div className='mr-10 mb-10 md:w-5/12'>
+                <div className='md:mr-10 mb-10 md:w-5/12'>
                   <div className='rounded-3xl bg-slate-200/10'>
                     <Link to="/ledger" className='thumb md:w-5/12 w-full'>
-                        <img className="p-8" src='./projects/ledger-hp-preview-1.svg'></img>
+                        <img className="md:p-8" src='./projects/ledger-hp-preview-1.png'></img>
                     </Link>
                   </div>
                 </div>
@@ -48,7 +48,7 @@ function Homepage() {
                   <Link to="/ledger">
                     <h2 className={`${planet.first} md:text-3xl text-xl uppercase`}>LEDGER BANKING</h2>
                   </Link>
-                  <h5 className='md:text-lg text-sm font-light my-2'>UI - UX, Development</h5>
+                  <h5 className='md:text-lg text-sm font-light my-2'>UI - UX, Development, Database</h5>
                   <div className={`${planet.second} font-light md:text-lg text-sm`}><span className='mr-8'>REACT.JS</span><span className='mr-8'>FIREBASE</span><span>TAILWIND</span></div>
                   <p className='md:mt-8 mt-4 md:text-base md:leading-relaxed leading-relaxed text-sm md:tracking-wide tracking-wide'>Ledger is UI-friendly banking app in which the user can create multiple accounts, easily access the balance, deposit and withdraw funds, and even send money between different accounts! Ledger is easily accessible on all devices, thanks to its own database!
                   </p>
@@ -68,34 +68,39 @@ function Homepage() {
               </div>
           </FadeInSection>
 
-        </div>
-
-        <div className='flex-col'>
-          {/* wheels app */}
           <FadeInSection>
-            <div className='project md:flex text-white md:mb-40 mb-16 items-center w-full'>
-              <div className='thumb md:w-5/12 w-full'>
-                <img className="w-full md:pr-8 md:pb-0 pb-4" src='./projects/WA-arrival.png'></img>
-              </div>
-              <div className='md:w-7/12 left-4'>
-                <h2 className={`${planet.first} md:text-3xl text-xl uppercase`}>WHEELS APP</h2>
-                <h5 className='md:text-lg text-sm font-light my-2'>UI - UX, Development</h5>
-                <div className={`${planet.second} font-light md:text-lg text-sm`}><span className='mr-8'>REACT.JS</span><span className='mr-8'>API</span><span>CSS</span></div>
-                <p className='md:mt-8 mt-4 md:text-base md:leading-relaxed leading-relaxed text-sm md:tracking-wide tracking-wide'>Wouldn’t it be great to have a “smart” ticket that tells you what is your arrival terminal, gate number, and maybe even if you’ll face delays and the weather condition at destination?
+            {/* wheels app */}
+              <div className='project md:flex text-white md:mb-40 mb-16 items-center w-full'>
+                <div className='md:mr-10 mb-10 md:w-5/12'>
+                  <div className='rounded-3xl bg-slate-200/10'>
+                    <Link to="/wheelsapp" className='thumb md:w-5/12 w-full'>
+                        <img className="md:p-12 p-8" src='./projects/WA-arrival.png'></img>
+                    </Link>
+                  </div>
+                </div>
+                <div className='md:w-7/12'>
+                  <Link to="/wheelsapp">
+                    <h2 className={`${planet.first} md:text-3xl text-xl uppercase`}>WHEELS APP</h2>
+                  </Link>
+                  <h5 className='md:text-lg text-sm font-light my-2'>UI - UX, Development</h5>
+                  <div className={`${planet.second} font-light md:text-lg text-sm`}><span className='mr-8'>REACT.JS</span><span className='mr-8'>API</span><span>CSS</span></div>
+                  <p className='md:mt-8 mt-4 md:text-base md:leading-relaxed leading-relaxed text-sm md:tracking-wide tracking-wide'>Wouldn’t it be great to have a “smart” ticket that tells you what is your arrival terminal, gate number, and maybe even if you’ll face delays and the weather condition at destination?
                 All in the same place? That's what I had in mind when I created Wheels App: works on all flights currently in the air!
-                </p>
-                  <div className='md:flex w-full'>
-                    <div className={`cta md:py-5 w-full mr-8`}>
-                      <Link to="/wheelsapp">
-                          <h5 className={`${planet.first} ${planet.cta}2 p-5 md:text-lg text-sm uppercase text-center`}>view&nbsp;project <span className={`arrow-hp ${planet.border} ml-2 right`}></span></h5>
-                      </Link>
-                    </div>
-                    <div className={`cta md:py-5 w-full mr-8`}>
-                    <h5 className={`${planet.first} ${planet.cta}2 p-5 md:text-lg text-sm uppercase text-center`}>live&nbsp;site<span className={`arrow-hp newTab ${planet.border} ml-4 right`}></span></h5>
-                    </div>
+                  </p>
+                    <div className='md:flex w-full'>
+                      <div className={`cta md:py-5 w-full mr-8`}>
+                        <Link to="/wheelsapp">
+                            <h5 className={`${planet.first} ${planet.cta}2 p-5 md:text-lg text-sm uppercase text-center`}>view&nbsp;project <span className={`arrow-hp ${planet.border} ml-2 right`}></span></h5>
+                        </Link>
+                      </div>
+                      <div className={`cta md:py-5 w-full mr-8`}>
+                        <a href='https://gaiagd.github.io/ledgerbank/' target="_blank">
+                          <h5 className={`${planet.first} ${planet.cta}2 p-5 md:text-lg text-sm uppercase text-center`}>live&nbsp;site<span className={`arrow-hp newTab ${planet.border} ml-4 right`}></span></h5>
+                        </a>
+                      </div>
+                  </div>
                 </div>
               </div>
-            </div>
           </FadeInSection>
 
         </div>
