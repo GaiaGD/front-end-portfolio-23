@@ -38,7 +38,7 @@ function Header() {
                     smooth={true}
                     offset={-70}
                     duration={1500}
-                    className='xs:w-32 w-20'
+                    className='sm:w-32 w-20'
                     to="/#intro">
                     <h2 className='text-white md:text-lg text-sm text-center'>HOME</h2>
                 </Link>
@@ -46,7 +46,7 @@ function Header() {
                     smooth={true}
                     offset={-70}
                     duration={1500}
-                    className='xs:w-32 w-20'
+                    className='sm:w-32 w-20'
                     to="/#about">
                     <h2 className='text-white md:text-lg text-sm text-center'>ABOUT</h2>
                 </Link>
@@ -54,7 +54,7 @@ function Header() {
                     smooth={true}
                     offset={-70}
                     duration={1500}
-                    className='xs:w-32 w-20'
+                    className='sm:w-32 w-20'
                     to="/#work">
                     <h2 className='text-white md:text-lg text-sm text-center'>WORK</h2>
                 </Link>
@@ -62,7 +62,7 @@ function Header() {
                     smooth={true}
                     offset={-70}
                     duration={1500}
-                    className='xs:w-32 w-20'
+                    className='sm:w-32 w-20'
                     to="/#contact">
                     <h2 className='text-white md:text-lg text-sm text-center'>CONTACT</h2>
                 </Link>
