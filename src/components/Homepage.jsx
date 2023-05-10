@@ -1,11 +1,10 @@
 import React, { useContext } from 'react'
-import {Link} from "react-router-dom"
-import {PlanetTheme} from "../PlanetThemeContext"
+import { Link } from "react-router-dom"
+import { PlanetTheme } from "../PlanetThemeContext"
 import FadeInSection from '../utils/FadeInSection'
 
 function Homepage() {
   const {planet, planetsFacts, planetInfo} = useContext(PlanetTheme)
-  console.log(planet.selected)
   return (
     <div>
       <FadeInSection>
