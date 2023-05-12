@@ -50,12 +50,10 @@ function PrivateSale() {
             <div className='info md:mr-64 mx-4'>
               <h5 className='text-xl font-semibold xl:mx-auto'>Features</h5>
               <p className='text-sm mt-2 mb-4 md:leading-relaxed leading-relaxed xl:mx-auto md:tracking-wide tracking-wide'>
-                The homepage features different items you can buy. You can either "like" any of them clicking on the heart icon 
-                that appears when hovering on the product or add them to your cart right away clicking on the + icon.
+                The homepage features different items you can buy. You can either "like" any of them clicking on the heart icon that appears when hovering on the product or add them to your cart right away clicking on the + icon.
               </p>
               <p className='text-sm mt-2 mb-4 md:leading-relaxed leading-relaxed xl:mx-auto md:tracking-wide tracking-wide'>
-                A full heart icon and a cart icon will be then visible anytime if the product has been liked or added to the cart.
-                This way you can toggle on these to either unlike or remove the product from the cart right from the homepage.
+                A full heart icon and a cart icon will be then visible anytime if the product has been liked or added to the cart. This way you can toggle on these to either unlike or remove the product from the cart right from the homepage.
               </p>
               <p className='text-sm mt-2 mb-4 md:leading-relaxed leading-relaxed xl:mx-auto md:tracking-wide tracking-wide'>
                 Clicking on the product name, you can visit its dedicated page. From there you can add the product to the cart or remove it.
@@ -67,7 +65,7 @@ function PrivateSale() {
             <div className='info md:mr-64 mx-4 mt-8'>
               <h5 className='text-xl font-semibold xl:mx-auto'>How was it build</h5>
               <p className='text-sm mt-2 mb-4 md:leading-relaxed leading-relaxed xl:mx-auto md:tracking-wide tracking-wide'>
-                  The items on the page are fetched with an api.
+                  The items on the page are fetched with an API.
                   Inside the React Context hook, they're stored in a state.
                   React Routers structures the app in a homepage, a dedicated product page and the cart page.
               </p>

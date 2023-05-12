@@ -16,12 +16,10 @@ function Wheelsapp() {
               <div className='md:mt-16 mt-8 mb-4'>
                 <h5 className='text-xl font-semibold mb-2'>Intro</h5>
                 <p className='text-sm md:leading-relaxed leading-relaxed md:tracking-wide tracking-wide'>
-                Once entered departure city, arrival city and airline, you’ll have access to many insightful info about the flight you're tracking.
-                This virtual boarding pass can show you the scheduled time, the actual time of departure and the eventual delay, the terminal and the gate for both the departure and the arrival airports.
+                After entering the airline and locations of departure and arrival, you’ll have access to a vast array of information about the flight you want to track. This virtual boarding pass shows you the scheduled time, as well as the actual time of departure and landing, or the eventual delay. WheelsApp also displays the terminal and gate information of both the departure and the arrival airports.
                 </p>
                 <p className='text-sm mt-4 md:leading-relaxed leading-relaxed md:tracking-wide tracking-wide'>
-                This web app shows also the aircraft and its flight number, and if available, at what point of the route your flight is.
-                And last but not least, you'll also be able to check the weather and what these cities look like!
+                This web app also shows the aircraft model, its flight number, and if available a live location of the flight. Lastly you'll also be able to check the weather at either end of the flight. For testing purposes, go to Flightradar24 and select a flight to track!
                 </p>
                 <p className='text-sm mt-4 md:mb-16 mb-4 md:leading-relaxed leading-relaxed md:tracking-wide tracking-wide'>
                 If you don't necessarily have a flight in mind you want to track, you can just look up whaterver is in the air right now on <a className="underline" target="_blank" href='https://www.flightradar24.com/'>Flightradar24.</a>
@@ -77,7 +75,7 @@ function Wheelsapp() {
           <div className='info md:mx-64 mx-4'>
             <h5 className='text-xl font-semibold xl:w-2/3 xl:mx-auto'>How was it build</h5>
             <p className='text-sm mt-2 mb-4 md:leading-relaxed leading-relaxed xl:w-2/3 xl:mx-auto md:tracking-wide tracking-wide'>
-              This app is built in html, css and react.js and it's able to collect all the possible data for any (almost any!) plane up in the air in this precise moment.
+              This app is built in html, css and react.js and it's able to collect all the possible data for any (almost any!) plane up in the air at this precise moment.
               It relies on different APIs: two flight tracking APIs to gather airports and flight info, one to get pictures of the locations and the arrival, one to get the weather information.
             </p>
             <p className='text-sm mt-2 mb-4 md:leading-relaxed leading-relaxed xl:w-2/3 xl:mx-auto md:tracking-wide tracking-wide'>

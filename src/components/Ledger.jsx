@@ -14,7 +14,7 @@ function Ledger() {
             <div className=''>
               <div className='md:mt-16 mt-8 mb-4'>
                 <p className='md:text-lg text-sm md:leading-relaxed leading-relaxed md:tracking-wide tracking-wide'>
-                A UI-friendly banking app for your day-to-day transactions, with a Firestore Database and styled with Tailwind.
+                  A UI-friendly banking app for your day-to-day transactions, with a Firestore Database and styled with Tailwind.
                 </p>
                 <div className={`${planet.second} pt-5 font-light md:text-lg text-sm`}><span className='mr-8'>REACT.JS</span><span className='mr-8'>FIREBASE</span><span>TAILWIND</span></div>
                 <p className='md:text-lg text-sm mt-4 md:leading-relaxed leading-relaxed md:tracking-wide tracking-wide'>

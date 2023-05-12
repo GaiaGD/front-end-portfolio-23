@@ -49,8 +49,7 @@ function Homepage() {
                   </Link>
                   <h5 className='md:text-lg text-sm font-light my-2'>UI - UX, Development, Database</h5>
                   <div className={`${planet.second} font-light md:text-lg text-sm`}><span className='mr-8'>REACT.JS</span><span className='mr-8'>FIREBASE</span><span>TAILWIND</span></div>
-                  <p className='md:mt-8 mt-4 md:text-base md:leading-relaxed leading-relaxed text-sm md:tracking-wide tracking-wide'>Ledger is UI-friendly banking app in which the user can create multiple accounts, easily access the balance, deposit and withdraw funds, and even send money between different accounts! Ledger is easily accessible on all devices, thanks to its own database!
-                  </p>
+                  <p className='md:mt-8 mt-4 md:text-base md:leading-relaxed leading-relaxed text-sm md:tracking-wide tracking-wide'>Ledger is UI-friendly banking app in which the user can create multiple accounts, easily access the balance, deposit and withdraw funds, and even send money between different accounts! Ledger is easily accessible on all devices, thanks to its own database!</p>
                     <div className='md:flex w-full'>
                       <div className={`cta md:py-5 w-full mr-8`}>
                         <Link to="/ledger">
@@ -83,9 +82,7 @@ function Homepage() {
                   </Link>
                   <h5 className='md:text-lg text-sm font-light my-2'>UI - UX, Development</h5>
                   <div className={`${planet.second} font-light md:text-lg text-sm`}><span className='mr-8'>REACT.JS</span><span className='mr-8'>API</span><span>CSS</span></div>
-                  <p className='md:mt-8 mt-4 md:text-base md:leading-relaxed leading-relaxed text-sm md:tracking-wide tracking-wide'>Wouldn’t it be great to have a “smart” ticket that tells you what is your arrival terminal, gate number, and maybe even if you’ll face delays and the weather condition at destination?
-                All in the same place? That's what I had in mind when I created Wheels App: works on all flights currently in the air!
-                  </p>
+                  <p className='md:mt-8 mt-4 md:text-base md:leading-relaxed leading-relaxed text-sm md:tracking-wide tracking-wide'>Wheels app is a “smart” ticket app that provides users both in the air and on the ground with terminal information, gate numbers and even live reports regarding delays. Wheels app works on all flights currently in the air.</p>
                     <div className='md:flex w-full'>
                       <div className={`cta md:py-5 w-full mr-8`}>
                         <Link to="/wheelsapp">
@@ -118,8 +115,7 @@ function Homepage() {
                   </Link>
                   <h5 className='md:text-lg text-sm font-light my-2'>UI - UX, Development</h5>
                   <div className={`${planet.second} font-light md:text-lg text-sm`}><span className='mr-8'>REACT.JS</span><span className='mr-8'>API</span><span>CSS</span></div>
-                  <p className='md:mt-8 mt-4 md:text-base md:leading-relaxed leading-relaxed text-sm md:tracking-wide tracking-wide'>A clone of an Ecommerce website created with React.js. Add your favorite items in the basket and check out!
-                  </p>
+                  <p className='md:mt-8 mt-4 md:text-base md:leading-relaxed leading-relaxed text-sm md:tracking-wide tracking-wide'>A clone of an Ecommerce website created with React.js. Add your favorite items in the basket and check out!</p>
                     <div className='md:flex w-full'>
                       <div className={`cta md:py-5 w-full mr-8`}>
                         <Link to="/privatesale">
@@ -155,10 +151,10 @@ function Homepage() {
               <h1 className={`${planet.first} md:text-4xl text-2xl text-center md:text-left uppercase my-8`}>about me</h1>
               <div className='xl:w-2/3'>
                 <h2 className='md:text-lg text-lg md:text-right text-center'>
-                After being a digital designer for a long time, becoming a front-end developer was just the natural progression. I love being able to create digital experiences that are useful, clean-coded and solve real-life problems while keeping the highest standard in terms of interface and experience for the user.</h2>
-                <h2 className='md:text-lg text-lg md:text-right text-center mt-4'>I have a Master in Communication Design from Central Saint Martins - University of the Arts London, and I recently got a certification from MIT in Front-End Development with React.js.</h2>
-                <h2 className='md:text-lg text-lg md:text-right text-center mt-4'>After having the luck to live and experience different cultures in many cities between Europe, the Middle East and I am now based in Washington DC, US.</h2>
-                <h2 className='md:text-lg text-lg md:text-right text-center mt-4'>Beside design and technology, I'm passionate about space exploration, I love brazilian jiu-jitsu and I do my best in helping animal rescuing.</h2>
+                After gaining years of invaluable experience as a digital designer, I was naturally drawn to front-end development. I love to create digital experiences that are useful, clean-coded and that solve real-life problems while keeping the highest standard in terms of interface and user experience.</h2>
+                <h2 className='md:text-lg text-lg md:text-right text-center mt-4'>I have a Masters degree in Communication Design from Central Saint Martins - University of the Arts London, and most recently an MIT certification in Front-End Development, specifically React.js.</h2>
+                <h2 className='md:text-lg text-lg md:text-right text-center mt-4'>Drawing from multiple years of experience in diverse cultural environments across cities in Europe and Western Asia, life has now taken me to the mid-atlantic United States.</h2>
+                <h2 className='md:text-lg text-lg md:text-right text-center mt-4'>In addition to design and technology I love space exploration, brazilian jiu-jitsu and fostering pets.</h2>
               </div>
               <div className={`cta ${planet.cta} md:p-5 p-3 my-16 md:w-1/3 w-full`}>
                 <a href='https://drive.google.com/file/d/1QCaxTbun2YS9qjNBt4rXqEy1SurFpXPo/view' target='_blank'>
