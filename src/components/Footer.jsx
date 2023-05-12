@@ -12,7 +12,7 @@ function Footer() {
             <h1 className={`${planet.first} md:text-4xl text-2xl uppercase mb-8 text-center`}>get in touch</h1>
             <div className=''>
 
-              <h2 className={`${planet.second} md:text-xl text-lg text-center`}>hi.gaiadg@gmail.com</h2>
+              <h2 className={`${planet.second} md:text-xl text-lg text-center`}>hi.gaiadgdev@gmail.com</h2>
               <h2 className="text-lg text-center pt-4">Whether you want to say hello, ask a question, or discuss a job opportunity please feel free to drop me a line</h2>
               <h2 className={`${planet.second} text-lg text-center pt-16`}>Or find me here:</h2>
 
