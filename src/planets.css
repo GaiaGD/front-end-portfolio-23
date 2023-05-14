@@ -2,8 +2,8 @@
     color: #C8C8C8;
     transition: .4s cubic-bezier(0.165, 0.84, 0.44, 1);
     text-shadow:
-    0 0 10px #C8C8C8,
-    0 0 13px #C8C8C87e;
+    0 0 6px #C8C8C8,
+    0 0 2px #C8C8C87e;
 }
 .mercuryTwo {
     color: #3C3C3C;
@@ -15,8 +15,8 @@
     border-color: #C8C8C8;
     transition: .4s cubic-bezier(0.165, 0.84, 0.44, 1);
     box-shadow:
-    0 0 10px #C8C8C8,
-    0 0 13px #C8C8C87e;
+    0 0 6px #C8C8C8,
+    0 0 2px #C8C8C87e;
 }
 .mercuryCta2 {
     border-bottom: 2px solid #C8C8C8;
@@ -36,8 +36,8 @@
     color: #FFE600;
     transition: .4s cubic-bezier(0.165, 0.84, 0.44, 1);
     text-shadow:
-    0 0 10px #FFE600,
-    0 0 13px #FFE6007e;
+    0 0 6px #FFE600,
+    0 0 2px #FFE6007e;
 }
 .venusTwo {
     color: #ae937a;
@@ -49,8 +49,8 @@
     border-color: #FFE600;
     transition: .4s cubic-bezier(0.165, 0.84, 0.44, 1);
     box-shadow:
-    0 0 10px #FFE600,
-    0 0 13px #FFE6007e;
+    0 0 6px #FFE600,
+    0 0 2px #FFE6007e;
 }
 .venusCta2 {
     border-bottom: 2px solid #FFE600;
@@ -70,8 +70,8 @@
     color: #FF0000;
     transition: .4s cubic-bezier(0.165, 0.84, 0.44, 1);
     text-shadow:
-    0 0 10px #FF0000,
-    0 0 13px #FF00007e;
+    0 0 6px #FF0000,
+    0 0 2px #FF00007e;
 }
 .marsTwo {
     color: #ffb56f;
@@ -83,8 +83,8 @@
     border-color: #FF0000;
     transition: .4s cubic-bezier(0.165, 0.84, 0.44, 1); 
     box-shadow:
-    0 0 10px #FF0000,
-    0 0 13px #FF00007e;
+    0 0 6px #FF0000,
+    0 0 2px #FF00007e;
 }
 .marsCta2 {
     border-bottom: 2px solid #FF0000;
@@ -105,8 +105,8 @@
     color: #E74663;
     transition: .4s cubic-bezier(0.165, 0.84, 0.44, 1);
     text-shadow:
-    0 0 10px #E74663,
-    0 0 13px #E746637e;
+    0 0 6px #E74663,
+    0 0 2px #E746637e;
 }
 .jupiterTwo {
     color: #5e797f;
@@ -118,8 +118,8 @@
     border-color: #E74663;
     transition: .4s cubic-bezier(0.165, 0.84, 0.44, 1); 
     box-shadow:
-    0 0 10px #E74663,
-    0 0 13px #E746637e;
+    0 0 6px #E74663,
+    0 0 2px #E746637e;
 }
 .jupiterCta2 {
     border-bottom: 2px solid #E74663;
@@ -139,8 +139,8 @@
     color: #f9b06a;
     transition: .4s cubic-bezier(0.165, 0.84, 0.44, 1);
     text-shadow:
-    0 0 10px #f9b06a,
-    0 0 13px #f9b06a7e;
+    0 0 6px #f9b06a,
+    0 0 2px #f9b06a7e;
 }
 .saturnTwo {
     color: #B095A7;
@@ -152,8 +152,8 @@
     border-color: #f9b06a;
     transition: .4s cubic-bezier(0.165, 0.84, 0.44, 1);
     box-shadow:
-    0 0 10px #f9b06a,
-    0 0 13px #f9b06a7e;
+    0 0 6px #f9b06a,
+    0 0 2px #f9b06a7e;
 }
 .saturnCta2 {
     border-bottom: 2px solid #f9b06a;
@@ -173,8 +173,8 @@
     color: #00EFFE;
     transition: .4s cubic-bezier(0.165, 0.84, 0.44, 1); 
     text-shadow:
-    0 0 10px #00EFFE,
-    0 0 13px #00EFFE7e;
+    0 0 6px #00EFFE,
+    0 0 2px #00EFFE7e;
 }
 .uranusTwo {
     color: #87a1a7;
@@ -186,8 +186,8 @@
     border-color: #00EFFE;
     transition: .4s cubic-bezier(0.165, 0.84, 0.44, 1);
     box-shadow:
-    0 0 10px #00EFFE,
-    0 0 13px #00EFFE7e;
+    0 0 6px #00EFFE,
+    0 0 2px #00EFFE7e;
 }
 .uranusCta2 {
     border-bottom: 2px solid #00EFFE;
@@ -207,8 +207,8 @@
     color: #281E9A;
     transition: .4s cubic-bezier(0.165, 0.84, 0.44, 1); 
     text-shadow:
-    0 0 10px #281E9A,
-    0 0 13px #421e9acc;
+    0 0 6px #281E9A,
+    0 0 2px #421e9acc;
 }
 .neptuneTwo {
     color: #384872;
@@ -220,8 +220,8 @@
     border-color: #281E9A;
     transition: .4s cubic-bezier(0.165, 0.84, 0.44, 1);
     box-shadow:
-    0 0 10px #281E9A,
-    0 0 13px #421e9acc;
+    0 0 6px #281E9A,
+    0 0 2px #421e9acc;
 }
 .neptuneCta2 {
     border-bottom: 2px solid #281E9A;
