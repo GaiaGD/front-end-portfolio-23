@@ -82,7 +82,7 @@ function Homepage() {
                   </Link>
                   <h5 className='md:text-lg text-sm font-light my-2'>UI - UX, Development</h5>
                   <div className={`${planet.second} font-light md:text-lg text-sm`}><span className='mr-8'>REACT.JS</span><span className='mr-8'>API</span><span>CSS</span></div>
-                  <p className='md:mt-8 mt-4 md:text-base md:leading-relaxed leading-relaxed text-sm md:tracking-wide tracking-wide'>Wheels app is a “smart” ticket app that provides users both in the air and on the ground with terminal information, gate numbers and even live reports regarding delays. Wheels app works on all flights currently in the air.</p>
+                  <p className='md:mt-8 mt-4 md:text-base md:leading-relaxed leading-relaxed text-sm md:tracking-wide tracking-wide'>Wheels app is a “smart” ticket app that provides users both in the air and on the ground with info about a live flight such as terminal information, gate numbers and even live reports regarding delays. Wheels app works on all flights currently in the air.</p>
                     <div className='md:flex w-full'>
                       <div className={`cta md:py-5 w-full mr-8`}>
                         <Link to="/wheelsapp">

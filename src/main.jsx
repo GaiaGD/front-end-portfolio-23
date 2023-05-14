@@ -3,6 +3,10 @@ import ReactDOM from 'react-dom/client'
 import { HashRouter } from 'react-router-dom'
 import { PlanetThemeContextProvider } from "./PlanetThemeContext"
 import ScrollToTop from './utils/ScrollToTop'
+import ReactGA from './react-ga4'
+
+const TRACKING_ID = "G-WRKWCR99D9"; // YOUR_OWN_TRACKING_ID
+ReactGA.initialize(TRACKING_ID);
 
 import App from './App'
 import './index.css'
