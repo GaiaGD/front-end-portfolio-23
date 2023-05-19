@@ -157,7 +157,7 @@ function Homepage() {
                 <h2 className='md:text-lg text-lg md:text-right text-center mt-4'>In addition to design and technology I love space exploration, brazilian jiu-jitsu and fostering pets.</h2>
               </div>
               <div className={`cta ${planet.cta} md:p-5 p-3 my-16 md:w-1/3 w-full`}>
-                <a href='https://drive.google.com/file/d/1QCaxTbun2YS9qjNBt4rXqEy1SurFpXPo/view' target='_blank'>
+                <a href='https://drive.google.com/file/d/1UmgtmrlMQBSzGC4kctAADg9-g9jUOsCD/view' target='_blank'>
                   <h5 className={`${planet.first} md:text-lg text-sm text-center`}>DOWNLOAD RESUME / CV</h5>
                 </a>
               </div>
