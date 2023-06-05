@@ -158,7 +158,7 @@ function Homepage() {
               </div>
               <div className={`cta ${planet.cta} md:p-5 p-3 my-16 md:w-1/3 w-full`}>
                 <a href='https://drive.google.com/file/d/1Gk0N7w0JDonw4wbcCMlbBw-CkJxNkDXM' target='_blank'>
-                  <h5 className={`${planet.first} md:text-lg text-sm text-center`}>DOWNLOAD RESUME</h5>
+                  <h5 className={`${planet.first} md:text-lg text-sm text-center`}>DOWNLOAD RESUME / CV</h5>
                 </a>
               </div>
           </div>
