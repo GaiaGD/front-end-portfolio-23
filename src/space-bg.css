@@ -44,28 +44,28 @@
 }
 
 .stars {
-    background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/1231630/stars.png) repeat;
+    /* background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/1231630/stars.png) repeat;
     position: absolute;
 	top: 0;
 	bottom: 0;
 	left: 0;
 	right: 0;
 	display: block;
-  	z-index: -11;
+  	z-index: -11; */
 }
 
 .depth {
-    background: rgba(0, 0, 0, 0.472);
+    /* background: rgba(0, 0, 0, 0.472);
     background: radial-gradient(circle, rgba(0, 0, 0, 0.673) 15%, rgba(0,0,0,0) 100%);
     position: absolute;
 	top: 0;
 	bottom: 0;
 	left: 0;
-	right: 0;
+	right: 0; */
 }
 
 .twinkling{
-	width:10000px;
+	/* width:10000px;
 	height: 100%;
 	background: transparent url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/1231630/twinkling.png") repeat;
 	background-size: 1000px 1000px;
@@ -78,5 +78,5 @@
     -ms-animation:move-background 40s linear infinite;
     -o-animation:move-background 40s linear infinite;
     -webkit-animation:move-background 40s linear infinite;
-    animation:move-background 40s linear infinite;
+    animation:move-background 40s linear infinite; */
 }
